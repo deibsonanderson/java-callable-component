@@ -1,0 +1,10 @@
+﻿spring:
+  application:
+    name: callable-component
+server:
+  port: 8081
+validators:
+  actives:
+    - ValidateName
+    - ValidateAge
+    - ValidateGender

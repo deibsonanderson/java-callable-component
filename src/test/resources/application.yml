@@ -1,0 +1,8 @@
+﻿spring:
+  application:
+    name: callable-component
+validators:
+  actives:
+    - ValidateName
+    - ValidateAge
+    - ValidateGender
