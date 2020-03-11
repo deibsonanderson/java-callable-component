@@ -74,6 +74,12 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<!-- Fix pom.xml of error Unknown -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.1.1</version><!--$NO-MVN-MAN-VER$-->
+			</plugin>			
 		</plugins>
 	</build>
 	<description>Simple example of a java application using spring, callable and spring component.</description>
