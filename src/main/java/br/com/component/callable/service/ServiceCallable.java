@@ -24,6 +24,7 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 public class ServiceCallable {
 
+
 	@Autowired
 	private BeanFactory beanFactory;
 	
